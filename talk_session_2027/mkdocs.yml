@@ -1,13 +1,14 @@
 site_name: 2027県議選へ向けた 聴きあうリアルトークセッション
 
-docs_dir: talk_session_2027
-site_dir: pages
+docs_dir: .
+site_dir: ../docs/talk_session
 
 theme:
   name: material
   language: ja
 
 nav:
+  - トップ: index.md
   - 第1回トークセッション: 1_20260621.md
   - アイデア集約: idea_collection.md
 
