@@ -1,2 +1,3 @@
-# activity
-various activities
+# アクティビティ
+
+いろいろな活動の記録を保管し、 `pages/` ディレクトリ以下を GitHub Pages としてWeb公開します。

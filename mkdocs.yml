@@ -1,0 +1,22 @@
+site_name: 2027県議選へ向けた 聴きあうリアルトークセッション
+
+docs_dir: talk_session_2027
+site_dir: pages
+
+theme:
+  name: material
+  language: ja
+
+nav:
+  - 第1回トークセッション: 1_20260621.md
+  - アイデア集約: idea_collection.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
